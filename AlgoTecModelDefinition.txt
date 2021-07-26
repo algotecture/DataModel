@@ -1,0 +1,37 @@
+id =
+Number = 
+TotalArea = 
+TotalVolume =
+Phones[] = "+19992223333", "+19992223344"
+ContractId =
+SubSpaces 
+  SubSpace[0]
+    Number = 
+    Name = ""
+    Area = ""
+    Volume = ""
+    Phones[] = "+19992223333", "+19992223344"
+    ContractId =
+    SubSpaces
+      SubSpace[0]
+        Number = 
+        Name = ""
+        Area = ""
+        Volume = ""
+        Phones[] = "+19992223333", "+19992223344"
+        ContractId =
+  SubSpace[1]
+    Number = 
+    Name = ""
+    Area = ""
+    Volume = ""
+    Phones[] = "+19992223333", "+19992223344"
+    ContractId = 
+    SubSpaces
+      SubSpace[0]
+        Number = 
+        Name = ""
+        Area = ""
+        Volume = ""
+        Phones[] = "+19992223333", "+19992223344"
+        ContractId =
