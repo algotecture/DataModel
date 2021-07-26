@@ -1,5 +1,9 @@
-# DataModel
-AlgoTecture Data Model
+# AlgoTecture Data Model
 
-dbdiagrams.io https://dbdiagram.io/d
-objGen http://www.objgen.com/json
+This repository maintains 
+
+## Abstract Model
+
+AlgoTecDbDiagram.txt -> copy&paste the content to the [dbdiagrams.io](https://dbdiagram.io/d)
+
+AlgoTecModelDefinition.txt -> copy&paste the content to the [objGen](http://www.objgen.com/json)
