@@ -1,6 +1,6 @@
-# AlgoTecture Data Model
+# AlgoTecture's Data Model
 
-This repository maintains 
+This repository maintains development of the AlgoTecture's Data Model
 
 ## Abstract Model
 
