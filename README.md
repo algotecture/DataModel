@@ -13,10 +13,12 @@ AlgoTecModelDefinition.txt -> copy&paste the content to the [objGen](http://www.
 ## References
 
 *SQL*
+
 https://www.w3schools.com/sql/sql_intro.asp
 https://en.wikipedia.org/wiki/SQL
 
 *NoSQL*
+
 https://en.wikipedia.org/wiki/NoSQL
 
 
