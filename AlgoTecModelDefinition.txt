@@ -1,4 +1,4 @@
-id =
+SpacePropertyId =
 Number = 
 TotalArea = 
 TotalVolume =
@@ -6,6 +6,7 @@ Phones[] = "+19992223333", "+19992223344"
 ContractId =
 SubSpaces 
   SubSpace[0]
+    SubSpaceId = 
     Number = 
     Name = ""
     Area = ""
@@ -14,6 +15,7 @@ SubSpaces
     ContractId =
     SubSpaces
       SubSpace[0]
+        SubSpaceId = 
         Number = 
         Name = ""
         Area = ""
@@ -21,6 +23,7 @@ SubSpaces
         Phones[] = "+19992223333", "+19992223344"
         ContractId =
   SubSpace[1]
+    SubSpaceId = 
     Number = 
     Name = ""
     Area = ""
@@ -29,6 +32,7 @@ SubSpaces
     ContractId = 
     SubSpaces
       SubSpace[0]
+        SubSpaceId = 
         Number = 
         Name = ""
         Area = ""
