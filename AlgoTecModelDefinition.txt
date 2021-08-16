@@ -1,4 +1,5 @@
 SpacePropertyId =
+SpaceId = 
 Number = 
 TotalArea = 
 TotalVolume =
@@ -7,6 +8,7 @@ ContractId =
 SubSpaces 
   SubSpace[0]
     SubSpaceId = 
+    SpaceId =
     Number = 
     Name = ""
     Area = ""
@@ -16,6 +18,7 @@ SubSpaces
     SubSpaces
       SubSpace[0]
         SubSpaceId = 
+        SpaceId =
         Number = 
         Name = ""
         Area = ""
@@ -24,6 +27,7 @@ SubSpaces
         ContractId =
   SubSpace[1]
     SubSpaceId = 
+    SpaceId =
     Number = 
     Name = ""
     Area = ""
@@ -33,6 +37,7 @@ SubSpaces
     SubSpaces
       SubSpace[0]
         SubSpaceId = 
+        SpaceId =
         Number = 
         Name = ""
         Area = ""

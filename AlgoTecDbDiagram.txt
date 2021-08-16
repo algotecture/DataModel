@@ -12,10 +12,13 @@ Table Space as S {
   SpaceProperty json
  }
 Table Contracts as C {
-  Id bigint [pk, increment]
+  Id guid [pk, increment]
   OwnerUserId bigint
   TenantUserId bigint
   SpaceId bigint
+  SpacePropertyId uuid
+  ContractDateStart datetime
+  ContractDateStop datetime
 }
 Table SpaceAddresses as SA {
   Id bigint [pk, increment] 
