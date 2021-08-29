@@ -9,6 +9,9 @@ Table Users as U {
 Table Space as S {
   Id bigint [pk, increment] 
   TypeOfSpaceId int
+  SpaceAddress varchar(500)
+  Latitude double
+  Longitude double
   SpaceProperty json
  }
 Table Contracts as C {
@@ -20,63 +23,11 @@ Table Contracts as C {
   ContractDateStart datetime
   ContractDateStop datetime
 }
-Table SpaceAddresses as SA {
-  Id bigint [pk, increment] 
-  CountryId int
-  CityId bigint
-  StreetId bigint
-  PostIndexId bigint
-  Number int
-  SpaceId bigint
- } 
 Table TypeOfSpace as TO {
   Id int [pk, increment] 
   Type varchar (500)
  }
-Table UserAddresses as UA {
-  Id bigint [pk, increment] 
-  CountryId int
-  CityId bigint
-  StreetId bigint
-  PostIndexId bigint
-  Number int
-  Pavilion varchar(500)
-  ApartmentNumber varchar(500)
-  UserId bigint
- } 
-Table Countries as CO {
-  Id int [pk, increment] 
-  Name varchar (500)
- } 
-Table Cities as CI {
-  Id bigint [pk, increment]
-  CountryId int
-  Name varchar (500)
- }
-Table Streets as ST {
-  Id bigint [pk, increment] 
-  CityId bigint
-  Name varchar (500)
- }
-Table PostIndexes as PI {
-  Id bigint [pk, increment] 
-  CityId bigint
-  Name varchar (500)
- } 
 Ref: S.TypeOfSpaceId > TO.Id
 Ref: C.OwnerUserId > U.Id  
 Ref: C.TenantUserId > U.Id
 Ref: C.SpaceId > S.Id
-Ref: SA.CountryId > CO.Id
-Ref: SA.CityId > CI.Id
-Ref: SA.StreetId > ST.Id
-Ref: SA.PostIndexId > PI.Id
-Ref: SA.SpaceId > S.Id
-Ref: UA.CountryId > CO.Id
-Ref: UA.CityId > CI.Id
-Ref: UA.StreetId > ST.Id
-Ref: UA.PostIndexId > PI.Id
-Ref: UA.UserId > U.Id
-Ref: CI.CountryId > CO.Id
-Ref: ST.CityId > CI.Id
-Ref: PI.CityId > CI.Id
