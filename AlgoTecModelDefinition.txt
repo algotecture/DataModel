@@ -3,7 +3,7 @@ SpaceId =
 Number = 
 TotalArea = 
 TotalVolume =
-Phones[] = "+19992223333", "+19992223344"
+Phones[] = "+41763430501", "+491775235453"
 ContractId =
 SubSpaces 
   SubSpace[0]
@@ -13,7 +13,7 @@ SubSpaces
     Name = ""
     Area = ""
     Volume = ""
-    Phones[] = "+19992223333", "+19992223344"
+    Phones[] = "+41763430501", "+491775235453"
     ContractId =
     SubSpaces
       SubSpace[0]
@@ -23,7 +23,7 @@ SubSpaces
         Name = ""
         Area = ""
         Volume = ""
-        Phones[] = "+19992223333", "+19992223344"
+        Phones[] = "+41763430501", "+491775235453"
         ContractId =
   SubSpace[1]
     SubSpaceId = 
@@ -32,7 +32,7 @@ SubSpaces
     Name = ""
     Area = ""
     Volume = ""
-    Phones[] = "+19992223333", "+19992223344"
+    Phones[] = "+41763430501", "+491775235453"
     ContractId = 
     SubSpaces
       SubSpace[0]
@@ -42,5 +42,5 @@ SubSpaces
         Name = ""
         Area = ""
         Volume = ""
-        Phones[] = "+19992223333", "+19992223344"
+        Phones[] = "+41763430501", "+491775235453"
         ContractId =
