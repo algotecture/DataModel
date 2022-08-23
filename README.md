@@ -2,6 +2,8 @@
 
 This repository maintains development of the AlgoTecture's Data Model
 
+AlgoTecture's data model aims to enable the [taxonomy](https://en.wikipedia.org/wiki/Taxonomy) practice of categorising or classifying building data.
+
 ## Abstract Model
 
 AlgoTecDbDiagram.txt -> copy&paste the content to the [dbdiagrams.io](https://dbdiagram.io/d)
